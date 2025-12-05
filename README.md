@@ -176,8 +176,7 @@ Simple. Clean. Ready to evolve.
 
 ## Acknowledgment
 
-Created by **Kallol Chakrabarti (Kallol)**  
-Independent Researcher  
+Created by **Kallol Chakrabarti also known as Kallol, Independent Researcher**
 
 ---
 
