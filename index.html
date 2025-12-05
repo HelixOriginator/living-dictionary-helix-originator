@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Living Dictionary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Dark mode background and text */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        header p.creator {
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+            color: #ff4c4c; /* Red color for creator name */
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        section h2 {
+            color: #ff9800; /* Accent color for section headers */
+            border-bottom: 2px solid #ff9800;
+            display: inline-block;
+            padding-bottom: 0.3rem;
+        }
+
+        a {
+            color: #90caf9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+        }
+
+        .search-bar {
+            display: flex;
+            margin-top: 1rem;
+        }
+
+        .search-bar input[type="text"] {
+            flex: 1;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+        }
+
+        .search-bar button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            border: none;
+            background-color: #ff9800;
+            color: #121212;
+            font-weight: bold;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+
+        .search-bar button:hover {
+            background-color: #e68900;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #1f1f1f;
+            color: #aaaaaa;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            section h2 {
+                font-size: 1.5rem;
+            }
+
+            .search-bar input[type="text"], .search-bar button {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Living Dictionary</h1>
+        <p class="creator">Created by Kallol Chakrabarti also known as Kallol, Independent Researcher</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About</h2>
+            <p>
+                The Living Dictionary is a world-first, living dictionary that evolves with real language, culture, and human expression. 
+                Words are not static; meanings grow and change as people and society grow.
+            </p>
+        </section>
+
+        <section>
+            <h2>Key Features</h2>
+            <ul>
+                <li>Real-time evolution of language</li>
+                <li>Cultural and contextual meanings</li>
+                <li>Mobile-friendly and responsive design</li>
+                <li>Dark mode interface for comfortable reading</li>
+                <li>Community-driven word suggestions</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>How to Use</h2>
+            <p>Type a word in the search bar below to explore its meaning, context, and usage:</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for a word..." disabled>
+                <button disabled>Search</button>
+            </div>
+            <p style="font-size: 0.9rem; color: #bbbbbb; margin-top: 0.5rem;">
+                (Search functionality coming soon)
+            </p>
+        </section>
+
+        <section>
+            <h2>Future Vision</h2>
+            <ul>
+                <li>AI-powered contextual suggestions</li>
+                <li>Voice search and pronunciation</li>
+                <li>Word history and etymology timeline</li>
+                <li>Word of the Day and bookmarking features</li>
+                <li>Community contributions and collaborative editing</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Live Website</h2>
+            <p>
+                Visit the live version here: 
+                <a href="https://thelivingdictionary.netlify.app/" target="_blank">thelivingdictionary.netlify.app</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 The Living Dictionary | Created by Kallol Chakrabarti also known as Kallol
+    </footer>
+</body>
+</html>
