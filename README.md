@@ -2,7 +2,7 @@
 
 A living, evolving dictionary that reflects real language, culture, emotion, and modern usage in a digital space.
 
-Live website:
+🔗 Live website:
 https://thelivingdictionary.netlify.app/
 
 Language isn’t fixed. Neither is this dictionary.
@@ -17,7 +17,7 @@ Traditional dictionaries are fixed and slow to change. Language, however, is fas
 
 The Living Dictionary exists to reflect how people actually use words in real life, across cultures, regions, generations, and moments in time.
 
-This is not just a reference tool.
+This is not just a reference tool.  
 It is a living record of human expression.
 
 It is built for:
@@ -84,9 +84,9 @@ If you care about words, this is for you.
 
 3. Explore its meaning and context.
 
-No sign-up.  
-No downloads.  
-No coding.
+No sign-up  
+No downloads  
+No coding  
 
 ---
 
@@ -105,6 +105,29 @@ Planned improvements include:
 • Community contributions  
 
 This project will continue to grow.
+
+---
+
+## Suggested Google & GitHub Keywords
+
+online dictionary  
+living dictionary  
+language evolution  
+meaning of words  
+word definitions  
+vocabulary builder  
+lexicography  
+language learning  
+linguistics  
+semantic dictionary  
+cultural dictionary  
+modern language tool  
+interactive dictionary  
+web based dictionary  
+learn vocabulary online  
+slang dictionary  
+free dictionary website  
+future of language  
 
 ---
 
@@ -141,6 +164,7 @@ interactive-dictionary
 
 /public  
 /src  
+/assets  
 README.md  
 LICENSE  
 CHANGELOG.md  
@@ -150,13 +174,20 @@ Simple. Clean. Ready to evolve.
 
 ---
 
-## Message From the Creator
+## Acknowledgment
+
+Created by **Kallol Chakrabarti (Kallol)**  
+Independent Researcher  
+
+---
+
+## Final Note
 
 The Living Dictionary is more than a project.
 
-It is a belief.
-That language is alive.
-That meaning is human.
-That words matter.
+It is a belief.  
+That language is alive.  
+That meaning is human.  
+That words matter.  
 
 And this is a place where they are allowed to live, grow, and evolve.
